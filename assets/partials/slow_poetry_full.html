@@ -1,0 +1,9 @@
+<div onscroll="toggleShowSideBar()" style="float: right;" id="photoDiv">
+<table onscroll="toggleShowSideBar()">
+  <tr ng-repeat="n in range(85)">
+    <td ng-repeat="j in range(1)">
+      <img ng-src="{{'/assets/images/'+j+'/'+n+'.jpg'}}" style="max-width: 100%; vertical-align: middle;"/>
+    </td>
+  </tr>
+</table>
+</div>

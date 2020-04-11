@@ -1,0 +1,46 @@
+h1 {
+  font-weight: bold;
+  color: skyblue;
+  font-size: 32px;
+  padding: 10px;
+}
+
+h1_tight {
+  font-weight: bold;
+  color: skyblue;
+  font-size: 32px;
+  padding: 0px;
+}
+
+h2 {
+  font-weight: bold;
+  color: skyblue;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.currentLink {
+  color: deeppink;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: skyblue;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: lightcyan;
+  text-decoration: none;
+}
+
+.aboutDiv {
+    background-color: lightblue;
+}
