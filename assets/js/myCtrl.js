@@ -6,7 +6,7 @@ app.controller("myCtrl", function($scope) {
     }
     $scope.getLinkColorCss = function(path) {
       if ($scope.selectedPage === path) {
-        return {"color": "paleturquoise"};
+        return {"color": "darkgoldenrod"};
       } else {
         return "";
       }
@@ -28,11 +28,11 @@ app.config(function($routeProvider) {
     .when("/detroit", {
         templateUrl : "/assets/partials/detroit.html"
     })
-    .when("/commissions", {
-        templateUrl : "/assets/partials/commissions.html"
+    .when("/other", {
+        templateUrl : "/assets/partials/other.html"
     })
-    .when("/about", {
-        templateUrl : "/assets/partials/about.html"
+    .when("/sf_bay_area", {
+        templateUrl : "/assets/partials/sf_bay_area.html"
     })
     .when("/contact", {
         templateUrl : "/assets/partials/contact.html"

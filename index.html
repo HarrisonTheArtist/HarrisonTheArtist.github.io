@@ -7,15 +7,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.jpg"/>
+  <link rel="shortcut icon" type="image/jpg" href="/assets/images/murci.png"/>
 </head>
-<body style = "height:100%; padding:0; margin:0; background-color: pink;">  
+<body style = "cursor: url('cursor.cur'), auto; height:100%; padding:0; margin:0; background-color: pink;">  
       <div id="sideBarContainer" ng-app="myApp" ng-controller="myCtrl" style="margin:0; padding:0; box-sizing:border-box;">
-        <div style="float: left; width: 20%; position: fixed;" ng-include="'/assets/partials/sidebar.html'" ng-show="showSideBar"></div>
+        <div style="float: left; width: 25%; position: fixed;" ng-include="'/assets/partials/sidebar.html'" ng-show="showSideBar"></div>
         <div ng-view></div>
       </div>   
     <script src="assets/js/myApp.js"></script>
     <script src="assets/js/myCtrl.js"></script>
     <script src="assets/js/scrollCtrl.js"></script>
+    <script src="assets/js/rainbow-sparkle.js"></script>
 </body>
 </html>
